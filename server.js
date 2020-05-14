@@ -7,10 +7,8 @@ const path = require('path');
 const app = express();
 app.use(express.static(path.join(__dirname, 'build')));
 const MongoClient = require('mongodb').MongoClient;
-// const uri = "mongodb+srv://khushboo:Iamstrong@08@cluster0-whx6m.mongodb.net/test?retryWrites=true&w=majority";
-
-
-const uri = "mongodb+srv://khushboo:Iamstrong@08@cluster0-6iy1f.mongodb.net/test?retryWrites=true&w=majority"
+//Fill your mongodb password
+const uri = "mongodb+srv://khushboo:<password>@cluster0-6iy1f.mongodb.net/test?retryWrites=true&w=majority"
 const client = new MongoClient(uri, { useNewUrlParser: true });
 client.connect(err => {
     // const collection = client.db("test").collection("devices");
