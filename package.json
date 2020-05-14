@@ -1,0 +1,37 @@
+{
+  "name": "dragplz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "add": "^2.0.6",
+    "axios": "^0.19.2",
+    "axois": "0.0.1-security",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.9.10",
+    "opener": "^1.5.1"
+  },
+  "scripts": {
+    "start": "node server.js ",
+    "build": "react-scripts build"
+  },
+  "engines": {
+    "node": "10.15.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
